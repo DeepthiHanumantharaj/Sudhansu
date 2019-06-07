@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[step 1: navigate to opportunity page]]>
+    </line>
+    <line>
+      <![CDATA[step 2:create new organisation]]>
+    </line>
+    <line>
+      <![CDATA[step 3: create two new opportunity]]>
+    </line>
+    <line>
+      <![CDATA[step 4:navigate to opportunity page]]>
+    </line>
+    <line>
+      <![CDATA[step 5:select all opportunities & delete]]>
+    </line>
+    <line>
+      <![CDATA[step 6: Handle the alert pop-up]]>
+    </line>
+    <line>
+      <![CDATA[step 7:veryfy & validate]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="128036" started-at="2019-03-14T06:07:25Z" finished-at="2019-03-14T06:09:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="128036" started-at="2019-03-14T06:07:25Z" finished-at="2019-03-14T06:09:33Z">
+      <class name="com.ComCast.VtigerTest.OpportunitiesTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.ComCast.VtigerTest.OpportunitiesTest@3532ec19]" name="configBC" is-config="true" duration-ms="8252" started-at="2019-03-14T06:07:25Z" finished-at="2019-03-14T06:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.ComCast.VtigerTest.OpportunitiesTest@3532ec19]" name="configBM" is-config="true" duration-ms="18999" started-at="2019-03-14T06:07:34Z" finished-at="2019-03-14T06:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="deleteMultioleOpportunityTest()[pri:0, instance:com.ComCast.VtigerTest.OpportunitiesTest@3532ec19]" name="deleteMultioleOpportunityTest" duration-ms="99153" started-at="2019-03-14T06:07:53Z" finished-at="2019-03-14T06:09:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[step 1: navigate to opportunity page]]>
+            </line>
+            <line>
+              <![CDATA[step 2:create new organisation]]>
+            </line>
+            <line>
+              <![CDATA[step 3: create two new opportunity]]>
+            </line>
+            <line>
+              <![CDATA[step 4:navigate to opportunity page]]>
+            </line>
+            <line>
+              <![CDATA[step 5:select all opportunities & delete]]>
+            </line>
+            <line>
+              <![CDATA[step 6: Handle the alert pop-up]]>
+            </line>
+            <line>
+              <![CDATA[step 7:veryfy & validate]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteMultioleOpportunityTest -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.ComCast.VtigerTest.OpportunitiesTest@3532ec19]" name="configAM" is-config="true" duration-ms="1454" started-at="2019-03-14T06:09:32Z" finished-at="2019-03-14T06:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.ComCast.VtigerTest.OpportunitiesTest@3532ec19]" name="configAC" is-config="true" duration-ms="101" started-at="2019-03-14T06:09:33Z" finished-at="2019-03-14T06:09:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.ComCast.VtigerTest.OpportunitiesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
